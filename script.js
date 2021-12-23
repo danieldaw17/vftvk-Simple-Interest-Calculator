@@ -14,10 +14,10 @@ function compute() {
     }
 
     document.getElementById("result").innerHTML = `
-        If you deposit <b>${principal}</b>,
-        at an interest rate of <b>${rate}</b>.
-        You will receive an amount of <b>${interest}</b>,
-        in the year <b>${year}</b>
+        If you deposit <span style="background-color:yellow;"><b>${principal}</b></span>,
+        at an interest rate of <span style="background-color:yellow;"><b>${rate}</b></span>.
+        You will receive an amount of <span style="background-color:yellow;"><b>${interest}</b></span>,
+        in the year <span style="background-color:yellow;"><b>${year}</b></span>
     `;
 }
 
